@@ -9,6 +9,7 @@ body {
   background: url("../images/fondo-encabezado1.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
+  background-attachment: fixed !important;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,6 +23,10 @@ body {
   background: #111111;
   color: #fff;
   padding: .5rem 0; }
+
+.encabezado.fondo-menu {
+  background: #064e4e;
+  padding: 1rem 0; }
 
 .encabezado .container {
   display: -webkit-box;
@@ -196,6 +201,7 @@ body {
 .servicios {
   background: url(../images/fondo-servicios.jpg) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed !important;
   color: #fff; }
 
 .servicios article {
@@ -523,6 +529,14 @@ body {
 @media (min-width: 992px) {
   html {
     font-size: 16px; }
+
+  .bienvenidos {
+    background: url("../images/fondo-encabezado-grande.jpg") no-repeat center top;
+    background-size: cover; }
+
+  .servicios {
+    background: url(../images/fondo-servicios-grande.jpg) no-repeat center center;
+    background-size: cover; }
 
   .prueba p {
     text-align: center;
